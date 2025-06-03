@@ -34,7 +34,7 @@ A modern web application built with FastAPI that provides real-time house price 
 
 - Python 3.8+
 - pip (Python package manager)
-- Docker (optional, for containerized deployment)
+- Render (for deployment)
 
 ## 🛠️ Installation
 
@@ -60,18 +60,6 @@ A modern web application built with FastAPI that provides real-time house price 
 4. **Ensure model files are present**
    - `housing_price_model.pkl` (trained ML model)
    - `feature_columns.pkl` (feature column names)
-
-### Docker Setup
-
-1. **Build the Docker image**
-   ```bash
-   docker build -t house-price-api .
-   ```
-
-2. **Run the container**
-   ```bash
-   docker run -p 8000:8000 house-price-api
-   ```
 
 ## 🚀 Usage
 
