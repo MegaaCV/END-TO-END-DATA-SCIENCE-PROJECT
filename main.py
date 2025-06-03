@@ -12,10 +12,10 @@ app = FastAPI(title="House Price Prediction Form")
 templates = Jinja2Templates(directory="C:\\Users\\ADMIN\\Desktop\\Templates")  
   
 # Load model and feature columns  
-with open("C:\\Users\\ADMIN\\Desktop\\VS code programs\\housing_price_model.pkl", "rb") as f:  
-    model = pickle.load(f)  
-with open("C:\\Users\\ADMIN\\Desktop\\VS code programs\\feature_columns.pkl", "rb") as f:  
-    feature_columns = pickle.load(f)  
+with open(os.path.join(BASE_DIR, "C:\\Users\\ADMIN\\Desktop\\VS code programs\\housing_price_model.pkl"), "rb") as f:
+    model = pickle.load(f)
+with open(os.path.join(BASE_DIR, "C:\\Users\\ADMIN\\Desktop\\VS code programs\\feature_columns.pkl"), "rb") as f:
+    model = pickle.load(f)
   
 # Home page with form  
 @app.get("/", response_class=HTMLResponse)  
