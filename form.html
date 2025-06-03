@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>House Price Prediction</title>  
+</head>  
+<body>  
+    <h2>House Price Prediction Form</h2>  
+    <form method="post">  
+        Area: <input type="number" name="area" required><br>  
+        Bedrooms: <input type="number" name="bedrooms" required><br>  
+        Bathrooms: <input type="number" name="bathrooms" required><br>  
+        Stories: <input type="number" name="stories" required><br>  
+        Parking: <input type="number" name="parking" required><br>  
+        Main Road:   
+        <select name="mainroad">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Guest Room:   
+        <select name="guestroom">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Basement:   
+        <select name="basement">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Hot Water Heating:   
+        <select name="hotwaterheating">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Air Conditioning:   
+        <select name="airconditioning">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Preferred Area:   
+        <select name="prefarea">  
+            <option value="yes">Yes</option>  
+            <option value="no">No</option>  
+        </select><br>  
+        Furnishing Status:   
+        <select name="furnishingstatus">  
+            <option value="furnished">Furnished</option>  
+            <option value="semi-furnished">Semi-furnished</option>  
+            <option value="unfurnished">Unfurnished</option>  
+        </select><br>  
+        <input type="submit" value="Predict Price">  
+    </form>  
+    {% if result %}  
+        <h3>Predicted Price: {{ result }}</h3>  
+        <h4>Input Features:</h4>  
+        <ul>  
+        {% for k, v in input.items() %}  
+            <li>{{ k }}: {{ v }}</li>  
+        {% endfor %}  
+        </ul>  
+    {% endif %}  
+</body>  
+</html>  
