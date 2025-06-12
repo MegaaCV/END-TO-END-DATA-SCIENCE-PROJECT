@@ -84,6 +84,10 @@ Upload dataset and re-train model from the app
 
 Deploy on cloud (e.g., Heroku, AWS, or Vercel)
 
+**Deployed Model in Vercel Cloud**
+
+https://end-to-end-data-science-project-git-main-megaa-c-vs-projects.vercel.app
+
 Add logging and form validation
 
 🙌 Acknowledgments
