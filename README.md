@@ -76,9 +76,7 @@ Seller Type: Individual
 Transmission: Manual
 
 📁 Project Structure
-bash
-Copy
-Edit
+
 car-price-prediction/
 │
 ├── templates/
@@ -89,19 +87,7 @@ car-price-prediction/
 ├── app.py                # Main Flask application
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
-📦 Dependencies
-txt
-Copy
-Edit
-Flask
-numpy
-scikit-learn
-Generate with:
 
-bash
-Copy
-Edit
-pip freeze > requirements.txt
 📌 Future Improvements
 Add support for more car features (engine size, power, etc.)
 
