@@ -1,10 +1,24 @@
 # END-TO-END-DATA-SCIENCE-PROJECT
+*COMPANY NAME* : CODETECH IT SOLUTIONS
 
+*NAME*         : MEGAA C V
+
+*INTERN ID*    : CT06DN683
+
+*DOMAIN*       : DATA SCIENCE
+
+*DURATION*     : 6 WEEKS
+
+*MENTOR*       : NEELA SANTHOSH
+
+# Description of my task
 
 Car Selling Price Prediction
+
 This is a Flask-based web application that predicts the resale price of a used car based on various inputs such as purchase year, kilometers driven, fuel type, transmission, and more. The prediction is powered by a Random Forest Regression model trained on historical car data.
 
 🔍 Features
+
 Simple and attractive user interface
 
 Predicts car resale value in lakhs of rupees
@@ -16,6 +30,7 @@ Uses machine learning (Random Forest) model
 Built with Python, Flask, HTML/CSS
 
 🛠️ Tech Stack
+
 Frontend: HTML5, CSS3 (with Google Fonts and responsive design)
 
 Backend: Flask (Python)
