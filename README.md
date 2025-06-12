@@ -41,30 +41,23 @@ Model Serialization: Pickle
 
 🚀 How to Run the Project Locally
 1. Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/MegaaCV/END-TO-END-DATA-SCIENCE-PROJECT.git
+
 cd END-TO-END-DATA-SCIENCE-PROJECT
-2. Create a Virtual Environment 
-bash
-Copy
-Edit
+3. Create a Virtual Environment 
 python -m venv venv
 venv\Scripts\activate  # On Windows
-3. Install Required Packages
-bash
-Copy
-Edit
+
+4. Install Required Packages
 pip install -r requirements.txt
-4. Place Your Model
+
+5. Place Your Model
 Ensure you have the trained model file random_forest.pkl in your project directory (or update the path in app.py accordingly).
 
-5. Run the App
-bash
-Copy
-Edit
+6. Run the App
 python app.py
+
 Visit http://127.0.0.1:5000 in your browser.
 
 🧪 Example Inputs
