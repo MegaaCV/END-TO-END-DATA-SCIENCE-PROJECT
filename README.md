@@ -29,9 +29,9 @@ Model Serialization: Pickle
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/car-price-prediction.git
-cd car-price-prediction
-2. Create a Virtual Environment (Optional but Recommended)
+git clone https://github.com/MegaaCV/END-TO-END-DATA-SCIENCE-PROJECT.git
+cd END-TO-END-DATA-SCIENCE-PROJECT
+2. Create a Virtual Environment 
 bash
 Copy
 Edit
