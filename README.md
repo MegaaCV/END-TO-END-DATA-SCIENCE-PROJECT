@@ -75,20 +75,9 @@ Seller Type: Individual
 
 Transmission: Manual
 
-📁 Project Structure
-
-car-price-prediction/
-│
-├── templates/
-│   ├── index.html        # Main input form
-│   └── result.html       # Output result page
-│
-├── random_forest.pkl     # Trained ML model
-├── app.py                # Main Flask application
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-
 📌 Future Improvements
+
+
 Add support for more car features (engine size, power, etc.)
 
 Upload dataset and re-train model from the app
@@ -98,8 +87,6 @@ Deploy on cloud (e.g., Heroku, AWS, or Vercel)
 Add logging and form validation
 
 🙌 Acknowledgments
-Kaggle Used Car Dataset
 
-Scikit-learn documentation
+Dataset: https://www.kaggle.com/datasets/mbsoroush/cara-price-dataset
 
-Flask framework
